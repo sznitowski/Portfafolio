@@ -9,10 +9,10 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #4ecac6;
-    --white-color: #011a19;
-    --dark-color: #2A3B47;
-    --text-color: #1682a0;
+    --first-color: #02a0ac;
+    --white-color: #0d3849;
+    --dark-color: #000000;
+    --text-color: #fc5b4f;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -264,6 +264,8 @@ img{
 /* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
+    display: inline-flexbox;
+    text-align: center;
 }
 .skills__subtitle{
     color: var(--first-color);
@@ -284,9 +286,7 @@ img{
     background-color: var(--first-color);
     color: var(--white-color);
 }
-.skills__img img{
-    border-radius: .5rem;
-}
+
 
 /* ===== PORTFOLIO =====*/
 .portfolio{

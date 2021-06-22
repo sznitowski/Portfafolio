@@ -288,11 +288,12 @@ img{
 }
 
 
-/* ===== PORTFOLIO =====*/
+/* ===== PROYECTS =====*/
 .portfolio{
     background-color: var(--white-color);
 }
 .portfolio__container{
+    text-align: center;
     justify-items: center;
     row-gap: 2rem;
 }

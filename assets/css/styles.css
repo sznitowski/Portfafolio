@@ -9,10 +9,10 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #02a0ac;
-    --white-color: #0d3849;
+    --first-color: #0255a3;
+    --white-color: #949393;
     --dark-color: #000000;
-    --text-color: #fc5b4f;
+    --text-color: #912118;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -279,8 +279,7 @@ img{
     margin-bottom: var(--mb-3);
     padding: .25rem .5rem;
     background-color: var(--white-color);
-    border-radius: .25rem;
-    
+    border-radius: .25rem; 
 }
 .skills__name:hover{
     background-color: var(--first-color);
@@ -293,6 +292,8 @@ img{
     background-color: var(--white-color);
 }
 .portfolio__container{
+    display: grid;
+    
     text-align: center;
     justify-items: center;
     row-gap: 2rem;

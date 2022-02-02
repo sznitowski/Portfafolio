@@ -1,244 +1,306 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="assets/css/styles.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== BOX ICONS ===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Portfolio Valentin Sznitowski</title>
-    </head>
-    <body>
-        <!--===== PARTICLES JS =====-->
-        <div id = "particles-js"></div>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Valentín Sznitowski</a>
-                </div>
+    <!-- ===== devicons ===== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+    <title>Portfolio Valentin Sznitowski</title>
+</head>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+<body>
+
+    <!--===== PARTICLES JS =====-->
+    <div id="particles-js"></div>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Valentín Sznitowski</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
     </div>
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home" id="home">
-                <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>Hello.</h1>
+    <main class="l-main">
 
-                    <div class="home__scroll">
-                        <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
-                    </div>
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><span>Hello.</h1>
 
-                    <img src="assets/img/perfil.png" alt="" class="home__img">
-                </div>
-            </section>
-            
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/perfil.png" alt="">
-                    </div>
-
-                    <div>
-                        <h3 class="about__subtitle">HI! I'am Valentín Sznitowski</h3>
-                        <span class="about__profession">Fullstack web
-                            developer NodeJs.</span>
-                        <p class="about__text">I am looking for
-                            my first work experience in
-                            the it world, I am passionate
-                            about technology, selftaught
-                            student. and I am
-                            always constantly learning.</p>
-
-                        <div class="about__social">
-                            <a href="https://www.linkedin.com/in/valent%C3%ADn-sznitowski/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="https://github.com/sznitowski" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Front end</h3>
-                        <span class="skills__name"><i class='bx bxl-html5'>Html</span></i>
-                        <span class="skills__name"><i class='bx bxl-css3'>Css</span></i>
-                        <span class="skills__name"><i class='bx bxl-javascript'>Javascript</span></i>           
-                    </div>
-
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Frameworks</h3>
-                        <span class="skills__name"><i class='bx bxl-react'>React</span></i>
-                        <span class="skills__name"><i class='bx bxl-bootstrap'>Bootstrap</span></i>
-                        <span class="skills__name"><i class='bx bxl-sass'>Scss</span></i>
-                    </div>  
-
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Back end</h3>
-                        <span class="skills__name"><i class='bx bxl-nodejs'>NodeJs.</span></i>
-                    </div>  
-
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Databases</h3>
-                        <span class="skills__name"><i class='bx bx-data'></i>Postgre SQL</span></i>
-                        <span class="skills__name"><i class='bx bx-data'></i>Mongo db</span>
-                    </div>  
-
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Deploy</h3>
-                        <span class="skills__name"><i class='bx bxl-git'>Git</span></i>
-                        <span class="skills__name"><i class='bx bxl-github' >Githube</span></i>
-                        <span class="skills__name">Heroku</span>
-                        <span class="skills__name">Netlify</span></i>
-                    </div>
-
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Utilis</h3>
-                        <span class="skills__name">Scrum</span>
-                        <span class="skills__name"><i class='bx bxl-slack'>Slack</span></i>
-                    </div>
-
-                    
-                </div>
-            </section>
-
-            <!--===== PROYECTS =====-->
-            <section class="portfolio section" id="portfolio">
-                <h2 class="section-title">Proyects</h2>
-
-                <div class="portfolio__container bd-grid">
-                    <div class="portfolio__img">
-
-                        <img src="assets/img/work1.png" width="300px" height="100px" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/sznitowski/Agenda-React" class="portfolio__link-name"><strong>Agenda React</strong><hr>
-                              <div class="row row-cols-auto">
-                                <div class="skills__proyect"><i class='bx bxl-html5'>Html</div></i>
-                                <div class="skills__proyect"><i class='bx bxl-css3'>Css</div></i>
-                                <div class="skills__proyect"><i class='bx bxl-bootstrap'>Bootstrap</div></i>
-                                <div class="skills__proyect"><i class='bx bxl-react'>React</div></i>                
-                              </div>
-                            </a>
-                        </div>
-                    </div>
-
-                     <div class="portfolio__img">
-                        <img src="assets/img/work2.png" alt="">
-
-                        <div class="portfolio__link">
-                            <a href="https://github.com/sznitowski/Api-Services" class="portfolio__link-name"><strong>Api Services</strong><hr>
-                               <div class="row row-cols-auto">
-                                <div class="skills__proyect"><i class='bx bxl-html5'>Html</div></i>
-                                <div class="skills__proyect"><i class='bx bxl-css3'>Css</div></i>
-                                <div class="skills__proyect"><i class='bx bxl-javascript'>Javascript</div></i>
-                                <div class="skills__proyect"><i class='bx bxl-bootstrap'>Bootstrap</div></i>
-                                <div class="skills__proyect"><i class='bx bxl-nodejs'>Node Js</div></i>
-                                <div class="skills__proyect"><i class='bx bx-data'></i>Mongo db</div>
-                              </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="portfolio__img">
-                        <img src="assets/img/work3.png" alt="">
-                        <div class="portfolio__link">
-                            <a href="https://github.com/sznitowski/moneyNote" class="portfolio__link-name"><strong>MoneyNote</strong><hr>
-                               <div class="row row-cols-auto">
-                                <div class="col"><i class='bx bxl-html5'>Html</div></i>
-                                <div class="col"><i class='bx bxl-css3'>Css</div></i>
-                                <div class="col"><i class='bx bxl-react'>React</div></i>
-                                <div class="col"><i class='bx bxl-bootstrap'>Bootstrap</div></i>
-                                <div class="col"><i class='bx bxl-nodejs'>Node Js</div></i>
-                                <div class="col"><i class='bx bx-data'></i>Postgre SQL</div></i>
-                               </div>
-                            </a>
-                        </div>    
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">vsznitowski@gmail.com</span>
-
-                        <h3 class="contact__subtitle">ADRESS</h3>
-                        <span class="contact__text">Argentina, Tucuman, San Miguel de Tucuman</span>                      
-                    </div>
-
-                    <form name="contact" method="POST" data-netlify="true">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
-                        </div>                   
-                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="submit" value="Enviar" class="contact__button">                     
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer section">
-            <div class="footer__container bd-grid">
-                <div class="footer__data">
-                    <h2 class="footer__title">Valentín Sznitowski</h2>
-                    <p class="footer__text">I'm Valentín Sznitowski and this is my personal portfolio</p>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
                 </div>
 
-                <div class="ubication">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d507.70419975139833!2d-65.219177829807!3d-26.81181399895335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjbCsDQ4JzQyLjUiUyA2NcKwMTMnMDcuMSJX!5e1!3m2!1ses-419!2sar!4v1615343587676!5m2!1ses-419!2sar" width="400" height="300" allowfullscreen="" loading="lazy"></iframe>
-                    
-                  </div>
-                
-                <div class="footer__data">
-                    <h2 class="footer__title">FOLLOW</h2>
-                    <a href="https://www.linkedin.com/in/valent%C3%ADn-sznitowski/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="https://github.com/sznitowski" class="about__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="https://codepen.io/sznitowski" class="about__social-icon"><i class='bx bxl-codepen'></i>
+                <img src="assets/img/perfil.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/perfil.png" alt="">
                 </div>
 
+                <div>
+                    <h3 class="about__subtitle">Hi! I'am Valentín Sznitowski</h3>
+                    <span class="about__profession">I'am Fullstack
+                        developer React/NodeJs.</span>
+                    <p class="about__text">
+                        I am a motivated person, who is quick to learn new skills.
+                        I work well under pressure. and
+                        enjoy working in a team.</p>
+
+                    <div class="about__social">
+                        <a href="https://www.linkedin.com/in/valent%C3%ADn-sznitowski/" class="about__social-icon"><i class="devicon-linkedin-plain"></i></a>
+                        <a href="https://github.com/sznitowski" class="about__social-icon"><i class="devicon-github-original"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Front end</h3>
+                    <span class="skills__name"><i class="skills__icon devicon-html5-plain colored">Html</span></i>
+                    <span class="skills__name"><i class="skills__icon devicon-css3-plain colored">Css</span></i>
+                    <span class="skills__name"><i class="skills__icon devicon-javascript-plain colored">Javascript</span></i>
+                </div>
+
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Frameworks</h3>
+                    <span class="skills__name"><i class="devicon-bootstrap-plain colored">Bootstrap</span></i>
+                    <span class="skills__name"><i class="devicon-sass-original colored">Sass</span></i>
+                    <span class="skills__name"><i class="devicon-react-original colored">React</span></i>
+                </div>
+
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Back end</h3>
+                    <span class="skills__name"><i class="devicon-typescript-plain colored">Typescrpit</span></i>
+                    <span class="skills__name"><i class="devicon-nodejs-plain colored">Nodejs</span></i>
+                    <span class="skills__name"><i class="devicon-express-original colored">Express</span></i>
+                </div>
+
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Databases</h3>
+                    <span class="skills__name"><i class="devicon-mongodb-plain colored">Mongodb</span></i>
+                    <span class="skills__name"><i class="devicon-mysql-plain colored">Mysql</span></i>
+                    <span class="skills__name"><i class="devicon-postgresql-plain colored">Postgresql</span></i>
+                </div>
+
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Version control</h3>
+                    <span class="skills__name"><i class="devicon-git-plain colored">Git</span></i>
+                    <span class="skills__name"><i class="devicon-github-original colored">Github</span></i>
+                    <span class="skills__name"><i class="devicon-bitbucket-original colored">Bitbucket</span></i>
+                    <span class="skills__name"><i class="devicon-heroku-plain colored">Heroku</span></i>
+                </div>
+
+                <div class="skills__box">
+                    <h3 class="skills__subtitle">Utilis</h3>
+                    <span class="skills__name"><i class="devicon-jira-plain colored">Jira</span></i>
+                    <span class="skills__name"><i class="devicon-amazonwebservices-original colored">AmazonAws</span></i>
+                    <span class="skills__name"><i class="devicon-linux-plain colored">Linux</span></i>
+                    <span class="skills__name"><i class="devicon-windows8-original colored">Windows</span></i>
+                </div>
 
             </div>
-        </footer>
-        <!--===== JS PARTICLES =====-->
-        <script src="assets/js/particles.min.js"></script>
-        <script src="assets/js/app.js"></script>
+        </section>
 
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <!--===== PROYECTS =====-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Proyects</h2>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-    </body>
+            <div class="portfolio__container bd-grid">
+                <div class="portfolio__img">
+
+                    <img src="assets/img/work1.png" width="300px" height="100px" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/sznitowski/evTecnica-FullStack"
+                            class="portfolio__link-name"><strong>FullStack-Api-Crud</strong>
+                            <hr>
+                            <div class="row row-cols-auto">
+                                <div class="skills__proyect"><i class="devicon-react-original colored">React</div></i>
+                                <div class="skills__proyect"><i class="devicon-bootstrap-plain colored">Reactstrap</div></i>
+                                <div class="skills__proyect"><i class="devicon-nodejs-plain colored">NodeJs</div></i>
+                                <div class="skills__proyect"><i class="devicon-express-original colored">Express</div></i>
+                                <div class="skills__proyect"><i class="devicon-nodejs-plain colored">Sequelize</div></i>
+                                <div class="skills__proyect"><i class="devicon-mysql-plain colored">Mysql</div></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="assets/img/work2.png" alt="">
+                    <div class="portfolio__link">
+                        <a href="https://github.com/sznitowski/moneyNote"
+                            class="portfolio__link-name"><strong>FullStack-Api Credit-notes</strong>
+                            <hr>
+                            <div class="row row-cols-auto">
+                                <div class="col"><i class="skills__icon devicon-html5-plain colored">Html</div></i>
+                                <div class="col"><i class="skills__icon devicon-css3-plain colored">Css</div></i>
+                                <div class="col"><i class="devicon-react-original colored">React</div></i>
+                                <div class="col"><i class="devicon-bootstrap-plain colored">Bootstrap</div></i>
+                                <div class="col"><i class="devicon-nodejs-plain colored">Node Js</div></i>
+                                <div class="col"><i class="devicon-express-original colored">Express</div></i>
+                                <div class="col"><i class="devicon-postgresql-plain colored">Postgre SQL</div></i>
+                                <div class="col"><i class="devicon-amazonwebservices-original colored">AmazonAws</div></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="assets/img/work3.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/sznitowski/Api-Services"
+                            class="portfolio__link-name"><strong>FullStack Api-Crud</strong>
+                            <hr>
+                            <div class="row row-cols-auto">
+                                <div class="skills__proyect"><i class="skills__icon devicon-html5-plain colored">Html</div></i>
+                                <div class="skills__proyect"><i class="skills__icon devicon-css3-plain colored">Css</div></i>
+                                <div class="skills__proyect"><i class="skills__icon devicon-javascript-plain colored"></i>Javascript</div>
+                                <div class="skills__proyect"><i class="devicon-bootstrap-plain colored">Bootstrap</div></i>
+                                <div class="skills__proyect"><i class="devicon-nodejs-plain colored">Node Js</div></i>
+                                <div class="skills__proyect"><i class="devicon-express-original colored">Express</div></i>
+                                <div class="skills__proyect"><i class="devicon-mongodb-plain colored">Mongodb</div></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio__img">
+                    <img src="assets/img/work4.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/sznitowski/react-portfolio"
+                            class="portfolio__link-name"><strong>FrontEnd React-Portfolio</strong>
+                            <hr>
+                            <div class="row row-cols-auto">
+                                <div class="skills__proyect"><i class="devicon-react-original colored">React</div></i>
+                                <div class="skills__proyect"><i class="devicon-sass-original colored">Sass</div></i>
+                                <div class="skills__proyect"><i class="skills__icon devicon-css3-plain colored">Css</div></i>
+                                <div class="skills__proyect"><i class="devicon-bootstrap-plain colored">Bootstrap</div></i>
+                                <div class="skills__proyect"><i class="devicon-react-original colored">Reactstrap</div></i>
+                                <div class="skills__proyect"><i class="devicon-react-original colored">Material Ui</div></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="portfolio__img">
+                    <img src="assets/img/work5.png" alt="">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/sznitowski/Node-Typescript-Api"
+                            class="portfolio__link-name"><strong>BackEnd Authentication api + Validations</strong>
+                            <hr>
+                            <div class="row row-cols-auto">
+                                <div class="skills__proyect"><i class="devicon-nodejs-plain colored">Node Js</div></i>
+                                <div class="skills__proyect"><i class="devicon-typescript-plain colored">Typescrpit</div></i>
+                                <div class="skills__proyect"><i class="devicon-express-original colored">Express</div></i>
+                                <div class="skills__proyect"><i class="devicon-mongodb-plain colored">Mongoose</div></i>
+                                <div class="skills__proyect"><i class="devicon-mongodb-plain colored">Mongodb</div></i>
+                                <div class="skills__proyect"><i class="devicon-express-original colored">Passport</div></i>
+                                <div class="skills__proyect"><i class="devicon-express-original colored">Bscrypt</div></i>
+                                <div class="skills__proyect"><i class="devicon-express-original colored">Jsonwebtoken</div></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">EMAIL</h3>
+                    <span class="contact__text">vsznitowski@gmail.com</span>
+
+                    <h3 class="contact__subtitle">ADRESS</h3>
+                    <span class="contact__text">Argentina, Tucuman, San Miguel de Tucuman</span>
+                </div>
+
+                <form name="contact" method="POST" data-netlify="true">
+                    <div class="contact__inputs">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                    </div>
+                    <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <input type="submit" value="Enviar" class="contact__button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <p class="footer__text">This is my personal portfolio</p>
+            </div>
+
+
+            <div class="footer__data">
+                <a href="https://www.linkedin.com/in/valent%C3%ADn-sznitowski/" class="about__social-icon"><i class="devicon-linkedin-plain"></i></a>
+                <a href="https://github.com/sznitowski" class="about__social-icon"><i class="devicon-github-original"></i></a>
+                <a href="https://github.com/sznitowski" class="about__social-icon"><i class="devicon-google-plain"></i></a>
+                </a>
+            </div>
+
+            <div class="footer__data">
+                © 2021 Copyright: Valentin Sznitowski
+            </div>
+
+
+        </div>
+    </footer>
+    <!--===== JS PARTICLES =====-->
+    <script src="assets/js/particles.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
 </html>

@@ -9,10 +9,10 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #0255a3;
-    --white-color: #949393;
-    --dark-color: #000000;
-    --text-color: #912118;
+    --first-color: #da801a;
+    --white-color: #ecebeb;
+    --dark-color: #688896;
+    --text-color: #280961;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -281,6 +281,7 @@ img{
     background-color: var(--white-color);
     border-radius: .25rem; 
 }
+
 .skills__name:hover{
     background-color: var(--first-color);
     color: var(--white-color);
